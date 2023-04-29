@@ -36,6 +36,7 @@ public class UserController {
         User savedUser = userService.createNewUser(signupDto);
         return new ResponseEntity<>(savedUser, HttpStatus.CREATED);
     }
+    //First we need sign up
 
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody @Valid LoginDto loginDto) {
