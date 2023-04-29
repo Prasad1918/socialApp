@@ -30,6 +30,7 @@ public class UserController {
     private final PostService postService;
     private final JwtTokenService jwtTokenService;
     private final AuthenticationManager authenticationManager;
+    private int kl=12;
 
     @PostMapping("/signup")
     public ResponseEntity<?> signup(@RequestBody  SignupDto signupDto) {
