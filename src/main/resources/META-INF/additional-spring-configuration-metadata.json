@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "app.root.frontend",
+    "type": "java.lang.String",
+    "description": "A description for 'app.root.frontend'"
+  },
+  {
+    "name": "app.root.backend",
+    "type": "java.lang.String",
+    "description": "A description for 'app.root.backend'"
+  },
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret'"
+  },
+  {
+    "name": "upload.user.images",
+    "type": "java.lang.String",
+    "description": "A description for 'upload.user.images'"
+  },
+  {
+    "name": "upload.post.images",
+    "type": "java.lang.String",
+    "description": "A description for 'upload.post.images'"
+  },
+  {
+    "name": "Amapstruct.verbose",
+    "type": "java.lang.String",
+    "description": "A description for 'Amapstruct.verbose'"
+  }
+]}
