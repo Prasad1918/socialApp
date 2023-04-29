@@ -21,7 +21,7 @@ public class Tag {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-private int j=10;
+
     @Column(length = 64, nullable = false, unique = true)
     private String name;
 
