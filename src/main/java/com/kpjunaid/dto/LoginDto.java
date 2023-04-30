@@ -10,7 +10,9 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LoginDto {
+    String s="Prasad";
     int jk = 908;
+    int ks=13;
     @ValidEmail
     private String email;
 
