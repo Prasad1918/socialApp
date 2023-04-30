@@ -11,17 +11,10 @@ import lombok.*;
 @AllArgsConstructor
 public class LoginDto {
 
-    String s="Prasad";
-    int jk = 908;
-    int ks=13;
+	@ValidEmail
+	private String email;
 
-    int jk=12;
+	@ValidPassword
+	private String password;
 
-    @ValidEmail
-    private String email;
-
-    @ValidPassword
-    private String password;
-
-    private int i= 123;
 }
