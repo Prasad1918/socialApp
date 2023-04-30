@@ -10,7 +10,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LoginDto {
-    
+    int jk = 908;
     @ValidEmail
     private String email;
 
