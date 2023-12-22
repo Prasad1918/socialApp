@@ -51,6 +51,7 @@ public class AppConstants {
     public static final String SHARE_EXISTS = "You have already shared this post.";
     public static final String DUPLICATE_SHARE = "You have already shared this post.";
     public static final String NOTIFICATION_NOT_FOUND = "No notification found.";
+    public static final String NOTIFICATION_NOT_D = "No notification found.";
 
     public static final String EMAIL_PATTERN = "^[\\w!#$%&’*+/=?`{|}~^-]+(?:\\.[\\w!#$%&’*+/=?`{|}~^-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$";
     public static final String PASSWORD_PATTERN = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{6,32}$";
