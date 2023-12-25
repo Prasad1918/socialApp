@@ -30,5 +30,4 @@ public class SignupDto {
     @Size(max = 64)
     private String lastName;
     
-  //validation booking class
 }
